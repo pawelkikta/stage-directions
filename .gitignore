@@ -1,0 +1,19 @@
+# dependencies and build
+node_modules/
+dist/
+dist-ssr/
+dev-dist/
+.vite/
+*.tsbuildinfo
+
+# local files
+.claude/
+.env
+.env.*
+*.local
+SCRIPT.md
+
+# logs and system files
+*.log
+.DS_Store
+Thumbs.db

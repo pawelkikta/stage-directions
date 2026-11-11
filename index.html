@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Stage Directions – OpenUSD, step by step</title>
+    <meta
+      name="description"
+      content="Learn OpenUSD step by step: lessons, predictions, exam practice for NVIDIA NCP-OUSD, and scripts checked on real USD. Works offline."
+    />
+    <meta name="theme-color" content="#f7f9fc" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <script>
+      // set the theme before the first paint, so the page does not flash
+      try {
+        if (localStorage.getItem("usd-atlas:theme") === "blueprint") {
+          document.documentElement.dataset.theme = "blueprint";
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
